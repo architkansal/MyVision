@@ -108,6 +108,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GridTest.xaml.cs">
+      <DependentUpon>GridTest.xaml</DependentUpon>
+    </Compile>
     <Compile Include="knowyoureyes.xaml.cs">
       <DependentUpon>knowyoureyes.xaml</DependentUpon>
     </Compile>
@@ -131,6 +134,9 @@
   <ItemGroup>
     <Content Include="Assets\background.png" />
     <Content Include="Assets\eye.jpg" />
+    <Content Include="Assets\eye1.png" />
+    <Content Include="Assets\eye3.png" />
+    <Content Include="Assets\eye4.jpg" />
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
@@ -141,6 +147,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="GridTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="knowyoureyes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

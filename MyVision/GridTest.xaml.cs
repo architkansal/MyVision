@@ -20,31 +20,21 @@ namespace MyVision
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class knowyoureyes : Page
+    public sealed partial class GridTest : Page
     {
-        public knowyoureyes()
+        public GridTest()
         {
             this.InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
         private void button_Click(object sender, RoutedEventArgs e)
         {
+
+        }
+
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
             Frame.Navigate(typeof(MainPage), null);
-        }
-
-        private void textBox2_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }
