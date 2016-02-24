@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="MyVision.accuracytest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyVision"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="33,44,0,0" TextWrapping="Wrap" Text="Visual Accuray Test" VerticalAlignment="Top" Height="84" Width="725" FontSize="53.333" Background="#FFF195D8"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="36,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="226" Width="1302" Background="White" TextChanged="textBox1_TextChanged" Text="" FontSize="21.333" IsReadOnly="True" TextAlignment="Center"/>
+        <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="30,670,0,0" VerticalAlignment="Top" Height="79" Width="230" FontSize="53.333" Click="button_Click"/>
+        <Button x:Name="button1" Content="Show Me Next!" HorizontalAlignment="Left" Margin="992,670,0,0" VerticalAlignment="Top" Height="79" Width="361" FontSize="46.667" Click="button1_Click" RenderTransformOrigin="-0.791,0.781"/>
+        <Button x:Name="button2" Content="Can't Read It!" HorizontalAlignment="Left" Margin="660,671,0,0" VerticalAlignment="Top" Height="74" Width="315" FontSize="46.667" Click="button2_Click"/>
+
+    </Grid>
+</Page>

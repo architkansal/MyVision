@@ -105,6 +105,12 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="accuracyreport.xaml.cs">
+      <DependentUpon>accuracyreport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="accuracytest.xaml.cs">
+      <DependentUpon>accuracytest.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -141,6 +147,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="accuracyreport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="accuracytest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="knowyoureyes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

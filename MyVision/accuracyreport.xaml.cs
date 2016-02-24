@@ -20,26 +20,12 @@ namespace MyVision
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class visualaccuracy : Page
+    public sealed partial class accuracyreport : Page
     {
-        public visualaccuracy()
+        public accuracyreport()
         {
-            this.InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(testlist), null);
-        }
-
-        private void button1_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(accuracytest), null);
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(accuracytest), null);
+            InitializeComponent();
+          //  System.Windows.Forms.MessageBox.Show("My message here");
         }
     }
 }
