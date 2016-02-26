@@ -26,6 +26,7 @@ namespace MyVision
         public static int count=0;
         public accuracytest()
         {
+            count = 0;
             this.InitializeComponent();
             this.get_test();
            
@@ -172,7 +173,9 @@ namespace MyVision
         public void generate_result()
         {
             int pts = count * 10;
-            object obj = pts;
+            object obj = new object();
+            obj = pts;
+            
             Frame.Navigate(typeof(accuracyreport), obj);
         }
     }
