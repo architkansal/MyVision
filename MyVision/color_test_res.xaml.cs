@@ -20,39 +20,32 @@ namespace MyVision
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class testlist : Page
+    public sealed partial class color_test_res : Page
     {
-        public testlist()
+        public color_test_res()
         {
             this.InitializeComponent();
         }
 
-        private void button3_Click(object sender, RoutedEventArgs e)
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
-            Frame.Navigate(typeof(gridtest), null);
         }
 
-        private void button2_Click(object sender, RoutedEventArgs e)
+        protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-           
-        }
+            var ob = e.Parameter as object;
+            textBox.Text = "Your Score is : ";
+            textBox.Text += ob.ToString();
+            textBox.Text += "%";
+             
 
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(colortest), null);
+
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(visualaccuracy), null);
-        }
-
-       
-
-        private void button4_Click_1(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(MainPage), null);
+            Frame.Navigate(typeof(testlist), null);
         }
     }
 }
