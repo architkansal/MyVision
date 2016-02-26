@@ -20,6 +20,7 @@ namespace MyVision
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+    
     public sealed partial class accuracytest : Page
     {
         public static int count=0;
@@ -144,7 +145,9 @@ namespace MyVision
                     textBox1.Text += var.ToString() + "  ";
                 }
             }
-          
+
+            if (count == 10)
+                generate_result();
 
 
         }
@@ -169,7 +172,8 @@ namespace MyVision
         public void generate_result()
         {
             int pts = count * 10;
-            Frame.Navigate(typeof(accuracyreport), pts);
+            object obj = pts;
+            Frame.Navigate(typeof(accuracyreport), obj);
         }
     }
 }

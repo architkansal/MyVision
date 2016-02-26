@@ -114,9 +114,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GridTest.xaml.cs">
-      <DependentUpon>GridTest.xaml</DependentUpon>
-    </Compile>
     <Compile Include="knowyoureyes.xaml.cs">
       <DependentUpon>knowyoureyes.xaml</DependentUpon>
     </Compile>

@@ -29,7 +29,7 @@ namespace MyVision
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(GridTest), null);
+           // Frame.Navigate(typeof(GridTest), null);
         }
 
         private void button2_Click(object sender, RoutedEventArgs e)
