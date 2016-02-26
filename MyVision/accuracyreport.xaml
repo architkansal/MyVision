@@ -8,6 +8,11 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="button" Content="Take Another Test" HorizontalAlignment="Left" Margin="823,656,0,0" VerticalAlignment="Top" Height="76" Width="460" FontSize="46.667" RenderTransformOrigin="0.093,0.405" Click="button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="35,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="447" Width="1242" FontSize="46.667" IsReadOnly="True" TextChanged="textBox_TextChanged"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="39,31,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top" Height="102" Width="640" FontSize="60" IsReadOnly="True"/>
 
     </Grid>
+
+
 </Page>
