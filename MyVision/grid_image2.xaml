@@ -11,7 +11,7 @@
         <Button x:Name="button"  Content="Back" HorizontalAlignment="Left" Margin="20,674,0,0" VerticalAlignment="Top" Height="71" Width="175" FontSize="40" Click="button_Click"/>
         <Image x:Name="image1" HorizontalAlignment="Left" Height="715" Margin="329,43,0,0" VerticalAlignment="Top" Width="718" Source="Assets/img_amslergrid.jpg"/>
         <Popup/>
-        <Button x:Name="button1" Content="WhatNext" HorizontalAlignment="Left" Margin="1096,674,0,0" VerticalAlignment="Top" Height="71" Width="233" FontSize="33.333" Click="button1_Click"/>
+        <Button x:Name="button1" Content="WhatNext?" HorizontalAlignment="Left" Margin="1126,628,0,69" VerticalAlignment="Stretch" Height="71" Width="233" FontSize="33.333" Click="button1_Click" RenderTransformOrigin="0.524,0.762"/>
 
 
     </Grid>

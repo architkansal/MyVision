@@ -133,6 +133,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="temp.xaml.cs">
+      <DependentUpon>temp.xaml</DependentUpon>
+    </Compile>
     <Compile Include="testlist.xaml.cs">
       <DependentUpon>testlist.xaml</DependentUpon>
     </Compile>
@@ -152,6 +155,7 @@
     <Content Include="Assets\eye1.png" />
     <Content Include="Assets\eye3.png" />
     <Content Include="Assets\eye4.jpg" />
+    <Content Include="Assets\eyes12.png" />
     <Content Include="Assets\grid.jpg" />
     <Content Include="Assets\img_amslergrid.jpg" />
     <Content Include="Assets\Logo.scale-100.png" />
@@ -195,6 +199,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="temp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="testlist.xaml">
       <SubType>Designer</SubType>
