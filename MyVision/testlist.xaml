@@ -8,15 +8,14 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="647*"/>
-            <ColumnDefinition Width="719*"/>
-        </Grid.ColumnDefinitions>
+      
         <Button x:Name="button" Content="Visual Accuracy Test" HorizontalAlignment="Left" Margin="350,95,0,0" VerticalAlignment="Top" Height="127" Width="703" FontSize="60" Click="button_Click" Grid.ColumnSpan="2"/>
         <Button x:Name="button1" Content="Colour Blindness Test" HorizontalAlignment="Left" Margin="351,258,0,0" VerticalAlignment="Top" Height="101" Width="695" FontSize="60" Click="button1_Click" Grid.ColumnSpan="2"/>
         <Button x:Name="button2" Content="Colour Cube Test" HorizontalAlignment="Left" Margin="349,405,0,0" VerticalAlignment="Top" Height="113" Width="711" FontSize="60" Click="button2_Click" Grid.ColumnSpan="2"/>
         <Button x:Name="button3" Content="Amsler Grid Test" HorizontalAlignment="Left" Margin="346,552,0,0" VerticalAlignment="Top" Height="100" Width="713" FontSize="60" Click="button3_Click" Grid.ColumnSpan="2"/>
-        <Button x:Name="button4" Content="Back" HorizontalAlignment="Left" Margin="23,690,0,0" VerticalAlignment="Top" Height="60" Width="180" FontSize="40" Click="button4_Click"/>
+        <Button x:Name="button4" Content="Back" HorizontalAlignment="Left" Margin="89,634,0,0" VerticalAlignment="Top" Height="71" RenderTransformOrigin="0.5,0.5" Width="175" FontSize="33.333" Click="button4_Click_1">
+           
+        </Button>
 
     </Grid>
 </Page>

@@ -20,21 +20,21 @@ namespace MyVision
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class GridTest : Page
+    public sealed partial class gridtest : Page
     {
-        public GridTest()
+        public gridtest()
         {
             this.InitializeComponent();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(testlist), null);
         }
 
-        private void button_Click_1(object sender, RoutedEventArgs e)
+        private void button1_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(MainPage), null);
+            Frame.Navigate(typeof(grid_image1), null);
         }
     }
 }
