@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="MyVision.colortest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyVision"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="302.704" VerticalAlignment="Bottom" Width="612.143" Margin="484.286,0,0,406.753" RenderTransformOrigin="0.908,2.318" Source="Assets/1.jpg" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform SkewY="0.747" TranslateY="8.278"/>
+            </Image.RenderTransform>
+        </Image>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="91" Margin="101,430,0,0" TextWrapping="Wrap" Text="what do you see??" VerticalAlignment="Top" Width="1097" TextChanged="textBox_TextChanged" FontSize="64" IsReadOnly="True"/>
+        <Button x:Name="button" Content="29" HorizontalAlignment="Left" Height="91" Margin="98,601,0,0" VerticalAlignment="Top" Width="324" Click="button_Click" FontSize="48"/>
+        <Button x:Name="button1" Content="23" HorizontalAlignment="Left" Height="88" Margin="705,601,0,0" VerticalAlignment="Top" Width="283" FontSize="48" Click="button1_Click"/>
+        <Button x:Name="button2" Content="show result" HorizontalAlignment="Left" Height="94" Margin="1093,664,0,0" VerticalAlignment="Top" Width="201" FontSize="32" Click="button2_Click"/>
+
+    </Grid>
+</Page>

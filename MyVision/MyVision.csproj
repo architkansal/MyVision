@@ -103,6 +103,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="accuracyreport.xaml.cs">
@@ -113,6 +114,12 @@
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="colortest.xaml.cs">
+      <DependentUpon>colortest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="color_test_res.xaml.cs">
+      <DependentUpon>color_test_res.xaml</DependentUpon>
     </Compile>
     <Compile Include="knowyoureyes.xaml.cs">
       <DependentUpon>knowyoureyes.xaml</DependentUpon>
@@ -135,6 +142,21 @@
     <None Include="MyVision_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\1.jpg" />
+    <Content Include="Assets\10.jpg" />
+    <Content Include="Assets\11.jpg" />
+    <Content Include="Assets\12.jpg" />
+    <Content Include="Assets\13.jpg" />
+    <Content Include="Assets\14.jpg" />
+    <Content Include="Assets\15.jpg" />
+    <Content Include="Assets\2.jpg" />
+    <Content Include="Assets\3.jpg" />
+    <Content Include="Assets\4.jpg" />
+    <Content Include="Assets\5.jpg" />
+    <Content Include="Assets\6.JPG" />
+    <Content Include="Assets\7.jpg" />
+    <Content Include="Assets\8.jpg" />
+    <Content Include="Assets\9.jpg" />
     <Content Include="Assets\background.png" />
     <Content Include="Assets\eye.jpg" />
     <Content Include="Assets\eye1.png" />
@@ -155,6 +177,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="accuracytest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="colortest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="color_test_res.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
