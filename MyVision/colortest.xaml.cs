@@ -29,7 +29,7 @@ namespace MyVision
         {
             this.InitializeComponent();
             page = 1;
-           
+            count = 0;
             this.get_image();
         }
 
@@ -170,7 +170,16 @@ namespace MyVision
         }
         private void end()
         {
-            int perc = ((count * 100) / page);
+            page--;
+            int perc;
+            try {
+                 perc = ((count * 100) / page);
+            }
+           catch(ArithmeticException e)
+            {
+                perc = 0;
+            }
+            //object obj = new object();
             object obj = perc;
 
             Frame.Navigate(typeof(color_test_res), obj);

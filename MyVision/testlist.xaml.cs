@@ -35,7 +35,7 @@ namespace MyVision
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-           
+
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -48,11 +48,11 @@ namespace MyVision
             Frame.Navigate(typeof(visualaccuracy), null);
         }
 
-       
-
-        private void button4_Click_1(object sender, RoutedEventArgs e)
+        private void button2_Click_1(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(MainPage), null);
         }
     }
+  
+    
 }

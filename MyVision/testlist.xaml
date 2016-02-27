@@ -12,7 +12,7 @@
         <Button x:Name="button" Content="Visual Accuracy Test" HorizontalAlignment="Left" Margin="346,80,0,0" VerticalAlignment="Top" Height="125" Width="750" FontSize="60" Click="button_Click"/>
         <Button x:Name="button1" Content="Colour Blindness Test" HorizontalAlignment="Left" Margin="346,314,0,0" VerticalAlignment="Top" Height="125" Width="750" FontSize="60" Click="button1_Click"/>
         <Button x:Name="button3" Content="Amsler Grid Test" HorizontalAlignment="Left" Margin="346,552,0,0" VerticalAlignment="Top" Height="125" Width="750" FontSize="60" Click="button3_Click" Grid.ColumnSpan="2"/>
-        <Button x:Name="button4" Content="Back" HorizontalAlignment="Left" Margin="69,690,0,0" VerticalAlignment="Top" Height="71" RenderTransformOrigin="0.5,0.5" Width="175" FontSize="33.333" Click="button4_Click_1">
-        </Button>
+        <Button x:Name="button2" Content="Back" HorizontalAlignment="Left" Margin="35,690,0,-8" VerticalAlignment="Stretch" Height="100" Width="230" FontSize="40" Click="button2_Click_1"/>
+
     </Grid>
 </Page>
