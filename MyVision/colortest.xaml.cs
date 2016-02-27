@@ -28,6 +28,7 @@ namespace MyVision
         public colortest()
         {
             this.InitializeComponent();
+            page = 1;
            
             this.get_image();
         }
@@ -36,6 +37,7 @@ namespace MyVision
         {
             if (page == 16)
             {
+             
                 end();
             }
             Uri uri = new Uri(BaseUri, "Assets/"+page+".jpg");
