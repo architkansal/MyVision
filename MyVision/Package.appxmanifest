@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="9ffcb280-0aa9-45f9-b459-cd1696a6020e" Publisher="CN=Architkansal" Version="1.0.0.6" />
+  <Identity Name="9ffcb280-0aa9-45f9-b459-cd1696a6020e" Publisher="CN=Architkansal" Version="1.0.0.8" />
   <Properties>
     <DisplayName>MyVision</DisplayName>
     <PublisherDisplayName>Architkansal</PublisherDisplayName>
