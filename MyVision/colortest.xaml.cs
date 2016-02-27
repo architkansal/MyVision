@@ -28,7 +28,8 @@ namespace MyVision
         public colortest()
         {
             this.InitializeComponent();
-           
+            page = 1;
+            count = 0;
             this.get_image();
         }
 
@@ -168,7 +169,9 @@ namespace MyVision
         }
         private void end()
         {
-            int perc = ((count * 100) / page);
+            page--;
+            int perc = ((count * 100) /page);
+
             object obj = perc;
 
             Frame.Navigate(typeof(color_test_res), obj);

@@ -115,12 +115,13 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-
+ 
     <Compile Include="colortest.xaml.cs">
       <DependentUpon>colortest.xaml</DependentUpon>
     </Compile>
     <Compile Include="color_test_res.xaml.cs">
       <DependentUpon>color_test_res.xaml</DependentUpon>
+    </Compile>
  
     <Compile Include="gridtest.xaml.cs">
       <DependentUpon>GridTest.xaml</DependentUpon>
@@ -200,13 +201,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-
+ 
     <Page Include="colortest.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="color_test_res.xaml">
-
+     <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GridTest.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -220,7 +223,7 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="grid_result.xaml">
-
+ 
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

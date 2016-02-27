@@ -41,5 +41,10 @@ namespace MyVision
         {
             Frame.Navigate(typeof(accuracytest), null);
         }
+
+        private void textBox1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
